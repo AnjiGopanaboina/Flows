@@ -1,0 +1,35 @@
+Q) What is a Flow in Salesforce?
+A) Flow is a powerful automation tool that helps users to build and execute business process using clicks instead of code.
+
+Q) What are different types of flow?
+A) Screen Flow:                       : Interactive flow that guide users with series of screens
+                                        
+   Record Trigger Flow                : Flow will run whenever a DML operation is performed (Create Update Delete)
+                                        Similar to Process builder and workflows
+                                        No UI
+
+   Scheduled Flow                     : Execute at a specific time Interval
+   Auto launched Flow                 : Runs in the background without user Interaction
+                                        If I want to invoke a flow right from Apex code 
+
+   Platform event Trigger Flow        : Respond to Platfrom events for real time Integration 
+
+Q) What are different types of buttons?
+A)       
+   Run:       If you want to run the flow after configuring  
+   Debug:     If you want to see is triggering/performing the action we use debug
+              Just like using system.debug in the Apex class
+   
+  Active:    If you want your flow to run with real time data we need to activate the flow
+             Once you active the flow we ca use this flow  in Record detail page, community page, Tab, Quick Action
+             Once the flow is activated we cannot further modify, if so we wanted to make some modification we need to clone the existing active flow and make necessary modification
+   Save As:  If you want to save the existing flow with the new version then use Save as
+   Save:      If you wish save a current logic to the existing flow then use Save
+
+Q) What is Auto layout button?
+A) It is the most frequently used for semeless desing of flows
+
+Q) What is Free Form button?
+A) If are trying to add some elements to the flow and you want to manage connection by yourself the we use Free form.
+
+Q) 

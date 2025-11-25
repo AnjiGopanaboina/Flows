@@ -1,0 +1,12 @@
+Q) What are the different ways we can create picklist values in Flows?
+A) 3 ways
+      i.Manually create our own picklist values - Choices
+              Ex: Yes/No
+      ii. Get Picklist values from Different Object (standard/Custom Object). - Picklist Choice Set
+
+      Note: We can use both Picklist and Multi-Select picklist values.
+     
+      iii.Get text type datatype values of a field as picklist values for a picklist field -Collection Choice Set.
+            Ex: For example I have an Opportunity Name field on the screen, and I need one picklist field and the values in that picklist fields should be All Account Name feild values.
+
+Note: we can also get picklist values from an object and display the fields in the flow as Radio buttons as well.

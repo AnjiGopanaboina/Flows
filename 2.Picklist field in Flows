@@ -10,3 +10,10 @@ A) 3 ways
             Ex: For example I have an Opportunity Name field on the screen, and I need one picklist field and the values in that picklist fields should be All Account Name feild values.
 
 Note: we can also get picklist values from an object and display the fields in the flow as Radio buttons as well.
+
+Note: In the third procedure, 
+            Create a Get Record element to fetch data from the object
+            Create Collection Choice set and embed the data from Get Record element
+            Use the collection choice set to source the data to the picklist field.
+
+iv:Get text type datatype values of a field as picklist values for a picklist field -Record Choice Set.
